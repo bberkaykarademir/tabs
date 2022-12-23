@@ -27,7 +27,7 @@ const App = () => {
               <button
                 key={index}
                 onClick={() => setValue(index)}
-                className={`job-btn ${index === value && "active"}`}
+                className={index === value && "active"}
               >
                 {job.company}
               </button>
